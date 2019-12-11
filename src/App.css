@@ -1,0 +1,71 @@
+#title {
+    text-align: center;
+}
+
+.numberTown { /* to be refactored */
+    width: 280px;
+    text-align: justify;
+    padding-right: 10%;
+}
+
+#senorDice {
+    background-color: PapayaWhip;
+    border-radius: 13.5%;
+    font-size: 2em;
+    height: 300px;
+    width: 300px;
+    border: none;
+}
+
+#senorDice:hover {
+    /* opacity: 0.7; */
+}
+
+#senorDice:focus {
+    outline: none;
+}
+
+#displayZone {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dnull {
+    border: none;
+}
+
+.d1 {
+    background: center center url('./images/dice1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d2 {
+    background: center center url('./images/dice2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d3 {
+    background: center center url('./images/dice3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d4 {
+    background: center center url('./images/dice4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d5 {
+    background: center center url('./images/dice5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d6 {
+    background: center center url('./images/dice6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
